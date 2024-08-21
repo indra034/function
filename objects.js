@@ -4,16 +4,17 @@ const myName = "Indra";
 const myAge = 40;
 const myProfession = "Teacher";
 
+
 // This is an object
 const aboutMe = {
     name: "Indra",
     age: 40,
     myProfession: "Teacher",
     hair: {
-        color: "black and red";
+        color: "black and red",
         straight: false,
-    },
-    isFree: (time) => {
+    }
+    isFree:(time) => {
         if (time > 10) {
             return true;
         } else {
@@ -21,11 +22,12 @@ const aboutMe = {
             }
         
     }
-};
+}
 
 // accessing a value of a property 
-console.log(about.name); // returns Indra
+console.log(aboutMe.name); // returns Indra
 console.log(aboutMe.age); // return 40
+
 // accessing nested value
 console.log(aboutMe.hair.color); // return " black and white and brown"
 //calling function
