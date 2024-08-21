@@ -15,3 +15,4 @@ const sampleOrder = {
 const updateOrder = applyDiscount(sampleOrder);
 console.log(sampleOrder);
 console.log(updateOrder);
+

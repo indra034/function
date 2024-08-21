@@ -25,6 +25,14 @@ const cart = [
     }, 0);
   }
   
-  // Example usage
+  
   const totalCost = calculateTotalCost(cart);
   console.log("Total Cost:", totalCost);
+
+
+  function calculateTotalCostUsingForOf () {
+    let totalCost = 0;
+    for (const cartItem of cartItem){
+      totalCost = tot
+    }
+  }
